@@ -1,0 +1,20 @@
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+	ignore = dirty
+[submodule "vendor/glm"]
+	path = vendor/glm
+	url = https://github.com/icaven/glm.git
+	ignore = dirty
+[submodule "vendor/vk-bootstrap"]
+	path = vendor/vk-bootstrap
+	url = https://github.com/charles-lunarg/vk-bootstrap
+	ignore = dirty
+[submodule "vendor/glfw"]
+	path = vendor/glfw
+	url = https://github.com/glfw/glfw.git
+	ignore = dirty
+[submodule "vendor/unordered_dense"]
+	path = vendor/unordered_dense
+	url = https://github.com/martinus/unordered_dense.git
+	ignore = dirty
