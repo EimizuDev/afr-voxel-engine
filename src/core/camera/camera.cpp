@@ -36,7 +36,7 @@ namespace afre
 
 		if (Camera* camera = &g_scene.m_registry.get<Camera>(camView.front()))
 		{
-			camera->m_yaw = (pitchIntent + camera->m_yaw >= 360 || pitchIntent + camera->m_yaw <= -360 ? 0 : pitchIntent + camera->m_yaw);
+			camera->m_yaw = (yawIntent + camera->m_yaw >= 360 || yawIntent + camera->m_yaw <= -360 ? 0 : yawIntent + camera->m_yaw);
 			camera->m_pitch = glm::clamp(camera->m_pitch + pitchIntent, -179.f, -1.f);
 		}
 	}

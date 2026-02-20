@@ -18,6 +18,6 @@ namespace afre
 
 		glm::mat4 m_CTWMat{};
 
-		static void Rotate(float pitchIntent, float pitchIntent);
+		static void Rotate(float yawIntent, float pitchIntent);
 	};
 }
