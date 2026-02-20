@@ -1,7 +1,7 @@
 # AFR Engine
 ### A voxel game engine (C++ / Vulkan)
 
-![Voxels demo](docs/gifs/voxel.gif)
+![Voxels demo](docs/gifs/voxels.gif)
 
 ## Overview
 
