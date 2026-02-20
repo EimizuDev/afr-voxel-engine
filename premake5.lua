@@ -48,7 +48,6 @@ dirs["entt"] = "vendor/entt"
 
 project (projectName)
 	location (projectDir)
-	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"
 	buildoptions "/utf-8"
@@ -78,6 +77,13 @@ project (projectName)
 	links "afr-engine"
 
 	dependson "afr-engine"
+
+	filter "configurations:release"
+		kind "WindowedApp"
+		entrypoint "mainCRTStartup"
+
+	filter "configurations:debug"
+		kind "ConsoleApp"
 
 	filter "platforms:windows"
 		defines "AFRE_WINDOWS"

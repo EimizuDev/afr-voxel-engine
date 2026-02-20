@@ -19,6 +19,10 @@ The game source, which leverages this engine, is private, although the demos are
 - All utility batch files.
 - Personal code comments and todos.
 
+## Demo
+
+Check out the [Releases](releases). I'll release demos there showcasing new things added and my progress on the game I'm working on.
+
 ## Tech Stack
 
 ### Languages
