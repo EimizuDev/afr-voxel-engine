@@ -21,7 +21,7 @@ The game source, which leverages this engine, is private, although the demos are
 
 ## Demo
 
-Check out the [Releases](releases). I'll release demos there showcasing new things added and my progress on the game I'm working on.
+Check out the [Releases](https://github.com/EimizuDev/afr-voxel-engine/releases). I'll release demos there showcasing new things added and my progress on the game I'm working on.
 
 ## Tech Stack
 
